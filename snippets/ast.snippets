@@ -1,0 +1,50 @@
+priority -50
+
+snippet enum "Create enum" b
+enum ${1:name} {
+	prefix = ${2:prefix},
+	values {
+		${3:values}
+	}
+};
+
+endsnippet
+
+snippet trav "Create enum" b
+traversal ${1:name} {
+	nodes {
+		${2:nodes}
+	}
+};
+
+endsnippet
+
+snippet set "Create nodeset" b
+nodeset ${1:name} {
+	${2:nodes}
+};
+
+endsnippet
+
+snippet node "Create node" b
+node ${1:type} {
+	children {
+		${2:child}
+	},
+	attributes {
+		${3:attr}
+	}
+};
+
+endsnippet
+
+snippet child "Create child" b
+child ${1:type} ${2:name} {
+	${3:construct,}
+	${4:mandatory \{
+		${5:phase}
+	\}}
+}
+endsnippet
+
+# vim:ft=snippets:noexpandtab
