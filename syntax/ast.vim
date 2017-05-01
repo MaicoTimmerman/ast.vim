@@ -15,10 +15,10 @@ syn keyword astType     int int8 int16 int32 int64
 syn keyword astType     uint uint8 uint16 uint32 uint64
 syn keyword astType     string bool double float
 
-syn keyword astStruct   attributes children child cycle cycles
-syn keyword astStruct   enum node nodeset nodes phase traversal traversals values
+syn keyword astStruct   attributes children child cycle pass passes subphases
+syn keyword astStruct   enum node nodeset nodes phase traversal values
 
-syn keyword astModifier prefix to construct mandatory
+syn keyword astModifier prefix to construct mandatory info func root
 
 syn keyword astConst    false true NULL
 
