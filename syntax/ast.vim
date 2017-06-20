@@ -18,7 +18,7 @@ syn keyword astType     string bool double float
 syn keyword astStruct   attributes children cycle pass passes subphases
 syn keyword astStruct   enum node nodeset nodes phase traversal values
 
-syn keyword astModifier prefix to construct mandatory info func root
+syn keyword astModifier prefix to constructor mandatory info func root
 
 syn keyword astConst    false true NULL
 
